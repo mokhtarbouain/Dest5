@@ -1,0 +1,12 @@
+[package]
+name = "lane_detection"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = "0.78.0"
+clap = { version = "4.3.0", features = ["derive"] }
+nalgebra = "0.32.2"
+thiserror = "1.0.40"
+log = "0.4.17"
+env_logger = "0.10.0"
